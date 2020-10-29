@@ -10,7 +10,7 @@ This program simulates a Casino Blackjack game with ...
 | :---: | --------------- | -------------------------------------------------- |
 |   1   |  [Main.cpp]()       | Main driver of my project that launches            |
 |   2   | [P02.1(Banner)]()     | Banner of the program for part 1                              |
-|   3   | [UML]()       | A Class Diagram showing the relationships between the blackjack classes                        |
+|   3   | [UML](https://github.com/jbwilliams1006/2143-OOP-Williams/tree/master/Assignments/P02/UML)       | A Class Diagram showing the relationships between the blackjack classes                        |
 |   4   | [P02 Output]()      | Output of the program                              |
 ### Instructions
 
