@@ -388,11 +388,7 @@ void Hand::Sort(){
             //Comparing cards at position i and j 
             if(Cards[i]->rank > Cards[j+1]->rank){
                 cout<<"swapping"<<endl;
-
-                // standard swap 
-                Card* temp = Cards[i];
-                Cards[i] = Cards[j];
-                Cards[j] = temp;
+                swap(Cards[i],Cards[j+1]); //key word swaps the first location with the second
             }
         }
     }
