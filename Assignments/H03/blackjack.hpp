@@ -389,6 +389,7 @@ void Hand::Sort(){
             if(Cards[i]->rank > Cards[j+1]->rank){
                 cout<<"swapping"<<endl;
                 swap(Cards[i],Cards[j+1]); //key word swaps the first location with the second
+                                           //Use of Abstraction
             }
         }
     }
