@@ -388,8 +388,11 @@ void Hand::Sort(){
             //Comparing cards at position i and j 
             if(Cards[i]->rank > Cards[j+1]->rank){
                 cout<<"swapping"<<endl;
-                swap(Cards[i],Cards[j+1]); //key word swaps the first location with the second
-                                           //Use of Abstraction
+                //standard swap 
+                //The problem with the original code was that the second variable's index did not stay consistent 
+                Card* temp = Cards[i]; //First variable copied into the temp variable 
+                Cards[i] = Cards[j+1];//Contents of the second variable copied into the first
+                Cards[j+1] = temp;//The contents of the first variable stored in the temp pointer is now copied into the second variable. 
             }
         }
     }
